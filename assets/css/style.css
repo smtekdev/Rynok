@@ -128,7 +128,7 @@ ul {
 }
 
 img {
-  max-width: 152%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -1968,7 +1968,7 @@ img {
 /*----- INDEX-7 HEADER STYLES -----*/
 .rev-7-header {
   position: relative;
-  z-index: 1;
+  z-index: 3;
 }
 .rev-7-header .top-header {
   background: none;
@@ -7997,7 +7997,7 @@ div.product-title a:hover {
 }
 .rev-7-footer .footer-subscribe .footer-subs-form button {
   position: absolute;
-  background: #699c47;
+  background: #b43434;
   right: 0;
   top: 0;
   height: 100%;
@@ -8088,7 +8088,7 @@ div.product-title a:hover {
   top: 0;
   width: 50%;
   height: 100%;
-  background: linear-gradient(40deg, #699c47 35%, #313131 0);
+  background: linear-gradient(40deg, #b43434 35%, #313131 0);
   z-index: -1;
 }
 @media screen and (max-width: 767px) {
@@ -8098,7 +8098,7 @@ div.product-title a:hover {
 }
 .rev-7-footer .copyright::after {
   right: 0;
-  background: linear-gradient(-40deg, #699c47 35%, #313131 0);
+  background: linear-gradient(-40deg, #b43434 35%, #313131 0);
 }
 @media screen and (max-width: 767px) {
   .rev-7-footer .copyright::after {
@@ -9766,8 +9766,8 @@ div.product-title a:hover {
   height: 55px;
   line-height: 56px;
   font-size: 35px;
-  background: #fe5502;
-  border: 1px solid #fe5502;
+  background: #b43434;
+  border: 1px solid #b43434;
   color: #ffffff;
 }
 .product-view-area .part-img .img-box .quick-view:hover {
@@ -9941,8 +9941,8 @@ div.product-title a:hover {
   font-size: 16px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #fe5502;
-  border: 1px solid #fe5502;
+  background: #b43434;
+  border: 1px solid #b43434;
 }
 .product-view-area .part-txt .btn-box button span {
   margin-right: 15px;
@@ -9950,7 +9950,7 @@ div.product-title a:hover {
 .product-view-area .part-txt .btn-box button:nth-child(2) {
   background: #ffffff;
   border-color: #ddd;
-  color: #fe5502;
+  color: #b43434;
 }
 .product-view-area .part-txt .btn-box button:nth-child(2):hover {
   color: #ffffff;
