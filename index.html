@@ -18,47 +18,7 @@
     <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendor/css/meanmenu.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        .top-sellers {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
 
-.top-sellers h2 {
-  margin: 0 0 10px;
-}
-
-.top-sellers ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.top-sellers li {
-  width: 33.33%;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.top-sellers img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.top-sellers h3 {
-  margin: 0 0 5px;
-}
-
-.top-sellers p {
-  margin: 0;
-  font-size: 14px;
-}
-
-    </style>
 </head>
 
 <body class="rev-7-body">
@@ -4341,29 +4301,7 @@
             </div> -->
         </div>
     </section>
-    <div class="top-sellers">
-        <h2>Top Sellers</h2>
-        <ul>
-          <li>
-            <img src="product-1.jpg" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>Price: $10.99</p>
-            <p>Sold: 1000</p>
-          </li>
-          <li>
-            <img src="product-2.jpg" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>Price: $15.99</p>
-            <p>Sold: 900</p>
-          </li>
-          <li>
-            <img src="product-3.jpg" alt="Product 3">
-            <h3>Product 3</h3>
-            <p>Price: $8.99</p>
-            <p>Sold: 800</p>
-          </li>
-        </ul>
-      </div>
+
       
     <section class="rev-7-testimonial-section">
         <div class="container">
@@ -6855,30 +6793,7 @@
     <script src="assets/vendor/js/jquery-modal-video.min.js"></script>
     <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-        // Assume we have an array of top sellers data:
-const topSellers = [
-  { name: "Product 1", price: 10.99, sold: 1000, img: "product-1.jpg" },
-  { name: "Product 2", price: 15.99, sold: 900, img: "product-2.jpg" },
-  { name: "Product 3", price: 8.99, sold: 800, img: "product-3.jpg" },
-];
 
-// Get the <ul> element:
-const topSellersList = document.querySelector(".top-sellers ul");
-
-// Loop through the top sellers data and create <li> elements:
-topSellers.forEach((item) => {
-  const li = document.createElement("li");
-  li.innerHTML = `
-    <img src="${item.img}" alt="${item.name}">
-    <h3>${item.name}</h3>
-    <p>Price: $${item.price.toFixed(2)}</p>
-    <p>Sold: ${item.sold}</p>
-  `;
-  topSellersList.appendChild(li);
-});
-
-    </script>
 </body>
 
 
